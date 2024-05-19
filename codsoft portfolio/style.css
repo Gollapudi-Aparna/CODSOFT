@@ -1,0 +1,117 @@
+*{
+    text-decoration: none;
+}
+.nav{
+background:rgb(216, 222, 169);font-family: 'Courier New';padding-right: 15px;padding-left:15px;
+color:white;
+}
+.nav1{
+    display:flex;align-items: center;justify-content: space-between;
+}
+.logo{
+    font-size: 40px;color:aqua;font-weight: bold;
+}
+.nav li{
+    list-style: none;display: inline-block;
+}
+li a{
+    color:white;font-size: 20px;font-weight: bold;margin-right: 25px;
+}
+.home{
+    width=100%;
+    min-width: 100vh;
+    background:rgb(241,241,241);
+    display:flex;
+    align-items: center;
+    padding: 30px 12% 0;
+}
+.home-content {
+max-width: 800px;
+}
+.home-content h3{
+    font-size:42px;
+}
+.home-content h1{
+    font-size:62px;
+    line-height: 1.2;
+}
+.home-content{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.about{
+    width=100%;
+    min-width: 100vh;
+    background:rgb(174, 209, 170);
+    display:flex;
+    align-items: center;
+    padding: 30px 12% 0;
+
+}
+.about-content {
+    max-width: 800px;
+    }
+    .about-content p{
+        font-size:42px;
+    }
+    .skills{
+        width=100%;
+        min-width: 100vh;
+        background:black;
+        display:flex;
+        align-items: center;
+        padding: 30px 12% 0;
+    
+    } 
+    .skills-content {
+        max-width: 800px;
+        color:aquamarine;
+        }
+        .l
+        {
+            color:aquamarine;
+            font-size: medium;
+            font-weight: bolder;
+            align-items: center;
+            list-style: none;
+            justify-content: center;
+        }
+        .projects{
+            width=100%;
+            min-width: 100vh;
+            background:rgb(134, 154, 101);
+            display:flex;
+            align-items: center;
+            padding: 30px 12% 0;
+        
+        } 
+        .project-content {
+            max-width: 800px;
+            color:aquamarine;
+            }
+    .project-content ul
+        {
+            color:aquamarine;
+            font-size: medium;
+            font-weight: bolder;
+            align-items: center;
+            list-style: none;
+            justify-content: center;
+        } 
+        .contact{
+            width=100%;
+            min-width: 100vh;
+            background:rgb(122, 170, 140);
+            display:flex;
+            align-items: center;
+            padding: 30px 12% 0;
+        
+        } 
+.btn-box{
+    color:yellowgreen;
+}
+.footer{
+    background:rgb(216, 222, 169);font-family: 'Courier New';padding-right: 15px;padding-left:15px;
+    color:rgb(7, 7, 7);
+    align-items: center;
+    }
